@@ -1,1 +1,1 @@
-# Vue-Mastery
+# self-vue
