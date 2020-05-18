@@ -5,6 +5,9 @@ import { remove } from '../util/index';
  * directives subscribing to it.
  */
 export default class Dep {
+	target: any;
+	subs: any[];
+
 	constructor() {
 		this.subs = [];
 	}
